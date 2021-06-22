@@ -1,0 +1,336 @@
+body{
+    /* background-color:red; */ */
+    margin:0;
+}
+.brandname{
+    margin:0 70px 0 20px;
+}
+.shop{
+    color:f7ea00;
+}
+.nava{
+    text-decoration:none;
+    color:white;
+    text-shadow:2px 2px 2px black;
+    }
+
+.nava:hover{
+     
+     text-shadow:2px 2px 2px red;
+}
+
+.intro1st{
+    height:500px;
+    width:100%;
+   
+      margin:0;
+    margin-bottom:40px;
+  
+}
+
+
+
+  .brandname{
+      font-size:40px;
+  }
+    
+.navli{
+    list-style:none;
+    display:inline;
+    margin:30px;
+}
+.ulnav{
+    padding:30px 0 0 0;
+}
+.nav{
+    margin:0;
+    width:100%;
+    height:100px;
+    background-color: 30475e  ;
+    z-index:1;
+    position:fixed;
+    box-shadow:4px 2px 3px black;
+}
+.nav:hover{
+     box-shadow:5px 5px 5px black;
+}
+     
+}
+/* intro */
+
+.introcontent{
+    padding:100px 0  0  0;
+    background-color:f3f4ed;
+    margin:0;
+ 
+}
+.intropets{
+    display:inline;
+    margin:15px;
+    height:300px;
+    width:25%;
+
+    
+ }
+/* finish intro */ 
+
+
+/* aboutsection */
+#about{
+    padding:50px;
+}
+.abouth1{
+    font-size:40px;
+    color:fa1e0e;
+
+}
+.aboutpetshop{
+    display:inline;
+     color:30475e;
+    font-size:30px;
+    /* background-color:fa1e0e; */
+}
+.aboutdiv{
+    padding:20px;
+    position:relative;
+    height:500px;
+    width:100%;
+     border:10px solid  red;
+     background-color:dddddd;
+}
+.aboutpetshop{
+    position:absolute;
+    color:822659  ;
+    top:70px;
+    left:500px;
+    right:auto;
+}
+
+/* review */
+ .reviewimg{
+   text-align:center;
+   padding-top:50px;
+   padding-bottom:50px;
+   padding:100px; 
+}
+
+.pic1{
+    height:200px;
+    width:200px;
+   border-radius:50px;
+   float:left;
+   margin-right:20px;
+}
+.pic2{
+    height:200px;
+    width:200px;
+   border-radius:50px;
+   float:right;
+   margin-left:20px;
+}
+.experience{
+    text-decoration:underline;
+    color:161d6f;
+    font-size:30px;
+}
+#review{
+    color:62959c;
+}
+.pic3{
+    height:200px;
+    width:200px;
+   border-radius:50px;
+   float:left;
+   margin-left:20px;
+}
+.pic4{
+    height:200px;
+    width:200px;
+   border-radius:50px;
+   float:right;
+   margin-left:20px;
+}
+ #pricing{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+    width:100%;
+ 
+    background-color:f7ea00;
+    color:161d6f;
+}
+.pricingdivs{
+    border:4px  solid ;
+    border-color:1a508b;
+    height:300px;
+    width:300px;
+    margin:10px;
+    text-align:center;
+}
+.priceh1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+.pricingdivs h2{
+    font-size:30px;
+}
+ 
+/* finish pricing */
+
+/* contact */
+#contact{
+    height:400px;
+    width:100%;
+    background-color:1a508b;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+.members{
+    height:200px;
+    width:200px;
+    text-align:center;
+    position:relative;
+}
+.memberimg{
+    height:150px;
+    width:150px;
+    border-radius:100px;
+}
+.memberh1{
+    font-size:20px;
+    position:absolute;
+    color:white;
+    top:10px;
+}
+.memberh2{
+    font-size:20px;
+    position:absolute;
+    color:white;
+    bottom:20px;
+    }
+    .contactlink{
+        text-decoration:none;
+        color:white;
+        padding:10px;
+        border-radius:10px;
+        background-color: 184d47 ;
+    }
+    .contactlink:hover{
+        color:ffe227;
+        
+    }
+.logindiv{
+    height:300px;
+    width:300px;
+    background-color:white;
+    position:relative;
+    text-align:center;
+    z-index:10;
+    left:600px;
+    top:90px;
+    padding:50px;
+    background-color:47597E;
+      color:F5A962;
+    }
+    .backgrounddiv{
+        height:100%;
+        width:100%;
+        background-color:rgba(128,128,128,0.6);
+         position:fixed;
+          z-index:1;
+
+    }
+    .x{
+        position:relative;
+        left:150px;
+        bottom:320px;
+       
+    }
+    .submit{
+         background-color:293B5F;
+        padding:10px;
+        display:inline;
+        border-radius:10px;
+        color:white;
+        
+    }
+    .display{
+        display:none;
+    }
+
+
+  .forget{
+      color:black;
+      position:relative;
+      top:30px;
+      right:10px;
+      color:FFED99;
+  }
+  .background2{
+       height:100%;
+        width:100%;
+        background-color:rgba(128,128,128,0.6);
+         position:fixed;
+          z-index:10;
+  }
+  .creatpassword{
+      height:300px;
+    width:300px;
+    background-color:47597E;
+    position:fixed;
+    text-align:center;
+    z-index:100;
+    left:800px;
+    top:110px;
+    padding:50px;
+    color:F5A962;
+  }
+.RESET{
+      background-color:293B5F;
+        padding:10px;
+        display:inline;
+        border-radius:10px;
+        position:relative;
+        left:30px;
+        color:white;
+}
+
+.login{
+    margin-left:250px;
+}
+.background3{
+    height:100%;
+        width:100%;
+        background-color:rgba(128,128,128,0.6);
+         position:fixed;
+          z-index:10;
+}
+.signup{
+    
+    height:400px;
+    width:400px;
+    background-color:47597E;
+    color:F5A962;
+    position:relative;
+    text-align:center;
+    z-index:10;
+    left:600px;
+    top:90px;
+    padding:50px;
+}
+.submit3{
+     background-color:293B5F;
+        padding:10px;
+        display:inline;
+        border-radius:10px;
+        color:white;
+}
+.x2{
+      position:relative;
+        left:150px;
+        bottom:320px;
+         
+}
